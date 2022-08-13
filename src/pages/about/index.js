@@ -23,7 +23,47 @@ export default function About() {
     setTimeout(() => {
       const container = document.querySelector(".hero-container");
       const slides = document.querySelector(".slides");
+      const prev =document.querySelector("#prev_btn");
+      const next =document.querySelector("#next_btn");
+      next.addEventListener('click',(event)=>{
+       let str= slides.style.left;
+       if(str===""||str===null){
+        slides.style.left = '-200px';
+       }else{
+         let length = str.substring(0,str.length-2);
+         console.log(str);
+         length = parseInt(length)-200;
+          if(length<-1500){
+            length=-1500;
+          }
+         slides.style.left =length+'px';
+         return ;
+       }
 
+       
+       
+      });
+      prev.addEventListener('click',(event)=>{
+        let str= slides.style.left;
+        if(str===""||str===null){
+          console.log(str)
+        }else{
+          let length = str.substring(0,str.length-2);
+          length = parseInt(length) + 200;
+           console.log(length)
+          if(length>0){
+            length=0;
+          }else{
+            length=length;
+          }
+         
+          slides.style.left =length+'px';
+          return ;
+        }
+        
+        
+        
+       });
       /* keep track of user's mouse down and up */
       let isPressedDown = false;
       /* x horizontal space of cursor from inner container */
@@ -46,6 +86,7 @@ export default function About() {
       container.addEventListener("mousemove", (e) => {
         if (!isPressedDown) return;
         e.preventDefault();
+       
         slides.style.left = `${e.offsetX - cursorXSpace}px`;
         boundCards();
       });
@@ -292,11 +333,8 @@ export default function About() {
             <Link id="the-gods-of-olympus-button" to="/guide">EXPLORE</Link>
           </div>
           <div id="zeus-hades-poseidon" class="mb-5 pb-5 hero-container">
-          <Carousel activeIndex={index} onSelect={handleSelect}>
-             <Carousel.Item>
-             <Row>
-           <Col md={4}>
-           <div id="element" class='slide'>
+            <div class="slides">
+              <div id="element" class='slide'>
                 <div class="ele">
                   <img src="images/Char_Zeus_front.png" alt="error" />
                   <div class="title">Zeus</div>
@@ -306,9 +344,7 @@ export default function About() {
                   <button class="button" type="button">COMING SOON </button>
                 </div>
               </div>
-           </Col>
-           <Col md={4}>
-           <div id="element" class='slide'>
+              <div id="element" class='slide'>
                 <div class="ele">
                   <img src="images/Char_Hades_front.png" alt="error" />
                   <div class="title">Hades</div>
@@ -318,9 +354,7 @@ export default function About() {
                   <button class="button" type="button">COMING SOON </button>
                 </div>
               </div>
-           </Col>
-           <Col md={4}>
-           <div id="element" class='slide'>
+              <div id="element" class='slide'>
                 <div class="ele">
                   <img src="images/Char_Poseidon_front.png" alt="error" />
                   <div class="title">Poseidon</div>
@@ -330,13 +364,7 @@ export default function About() {
                   <button class="button" type="button">COMING SOON </button>
                 </div>
               </div>
-           </Col>
-          </Row>
-          </Carousel.Item>
-          <Carousel.Item>
-             <Row>
-           <Col md={4}>
-           <div id="element" class='slide'>
+              <div id="element" class='slide'>
                 <div class="ele">
                   <img src="images/Char_Perseus_front.png" alt="error" />
                   <div class="title">Perseus</div>
@@ -346,9 +374,7 @@ export default function About() {
                   <button class="button" type="button">COMING SOON </button>
                 </div>
               </div>
-           </Col>
-           <Col md={4}>
-           <div id="element" class='slide'>
+              <div id="element" class='slide'>
                 <div class="ele">
                   <img src="images/Char_Phobos_front.png" alt="error" />
                   <div class="title">Thanatos</div>
@@ -358,9 +384,7 @@ export default function About() {
                   <button class="button" type="button">COMING SOON </button>
                   </div>
               </div>
-           </Col>
-           <Col md={4}>
-           <div id="element" class='slide'>
+              <div id="element" class='slide'>
                 <div class="ele">
                   <img src="images/Char_Thanatos_front.png" alt="error" />
                   <div class="title">Phobos</div>
@@ -370,38 +394,37 @@ export default function About() {
                   <button class="button" type="button">COMING SOON </button>
                   </div>
               </div>
-           </Col>
-          </Row>
-          </Carousel.Item>
-          <Carousel.Item>
-             <Row>
-           <Col md={4}>
-           <div id="element" style={{ height: 404 }} class='item'>
-                <div class="h-100 padding_top" id="cms" >
-                  <div class="title_1">COMING SOON</div></div>
-              </div>
-           </Col>
-           <Col md={4}>
-           <div id="element" style={{ height: 404 }} class='item'>
+              <div id="element" style={{ height: 600 }} class='item'>
                 <div class=" h-100 padding_top" id="cms" >
                   <div class="title_1">COMING SOON</div></div>
               </div>
-           </Col>
-           <Col md={4}>
-           <div id="element" style={{ height: 404 }} class='item'>
-                <div class=" h-100 padding_top" id="cms" >
-                  <div class="title_1">COMING SOON</div></div>
+            </div>
+          
+            
+            
+            <div class="position-absolute m-auto" style={{ width: '100%',bottom:20,display:'flex', justifyContent:'center' }}>
+                  <div className="position-relative" style={{ width: 150,height:20,display:'flex', justifyContent:'center'}}>
+                  <div class="carousel-control-prev " style={{
+                    width:50
+                  }} role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" id="prev_btn" style={{
+                    display:"block "
+                  }} aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </div>
+                   
+                    <div class="carousel-control-next" style={{
+                    width:50
+                  }} role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" id="next_btn" style={{
+                    display:"block "
+                  }}  aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </div>
+                  </div>
+                   
               </div>
-           </Col>
-          </Row>
-          </Carousel.Item>
-
-         </Carousel>
-            <ol class="carousel-indicators " id="navigation">
-              <li data-target="#carouselAboutBanner" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselAboutBanner" data-slide-to="1" class=""></li>
-            <li data-target="#carouselAboutBanner" data-slide-to="2" class=""></li>
-            </ol>
+             
           </div>
           
           

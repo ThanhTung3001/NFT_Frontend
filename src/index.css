@@ -41,7 +41,7 @@ div#cms{
   border-radius: 25px;
   background-color: #17222c;
   width: 100%;
- 
+  height: 404px !important;
   box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
   box-sizing: unset !important;
 }
@@ -53,9 +53,24 @@ div#cms{
 }
 .bg_2{
    background-image: url('../public/images/bg2_story.png') !important;
+   width: 511px !important;
+   height: 420px !important;
+   background-size: 511px 420px !important;
+   background-repeat: no-repeat;
+}
+.bg1_story{
+  background-image: url('../public/images/graphic_engineer.png') !important;
+  background-size: 511px 420px !important;
+  background-repeat: no-repeat !important;
+  width: 511px !important;
+  height: 420px !important;
 }
 .bg3_story{
   background-image: url('../public/images/bg3_story.png') !important;
+  width: 511px !important;
+  height: 420px !important;
+  background-size: 511px 420px !important;
+  background-repeat: no-repeat;
 }
 
 .layout_black_blur {

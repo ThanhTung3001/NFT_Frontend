@@ -108,11 +108,15 @@ export default function Team() {
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon" style={{
+                    display:"block "
+                  }} aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <a class="carousel-control-next" href="#carouselExampleControls"  role="button" data-slide="next">
+            <span class="carousel-control-next-icon" style={{
+                    display:"block "
+                  }} aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
         </div>
@@ -208,7 +212,7 @@ export default function Team() {
                 <div id="graphic-engineer-title" class="text-left d-flex align-items-center">
                 CG3D  STORY
                 </div>
-                <div id="graphic-engineer-img"></div>
+                <div id="graphic-engineer-img" className="bg1_story"></div>
                 </div>
                   <div class="d-flex">
                     

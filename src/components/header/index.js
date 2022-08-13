@@ -58,7 +58,7 @@ export default function Header() {
             </div></div>
           
         </Link>
-        <a target="_blank" class={'menu-item ' + (checkIfActivePage('/whitePaper') ? 'active' : '')} href="https://rise-of-immortals.gitbook.io/rise-of-immortals/rise-of-immortals/what-is-rise-of-immortals">
+        <a target="_blank" class={'menu-item ' + (checkIfActivePage('/whitePaper') ? 'active' : '')} href="https://rise-of-immortals. gitbook.io/rise-of-immortals/rise-of-immortals/what-is-rise-of-immortals">
           <div class="text">
           Whitepaper
             
