@@ -1,0 +1,555 @@
+.homepage,
+.homepage * {
+  color: white;
+}
+
+.homepage {
+  background: linear-gradient(90.65deg, rgba(59, 66, 96, 1.00) 2.338569425046444%, rgba(59, 55, 85, 1.00) 30.52082061767578%, rgba(60, 46, 77, 1.00) 60.20832061767578%, rgba(61, 30, 59, 1.00) 100%);
+  backdrop-filter: blur(15px);
+  overflow: auto;
+}
+
+.homepage .background-layer {
+  background: linear-gradient(1.64deg, rgba(72, 78, 75, 1.00) 0%, rgba(15, 31, 62, 1.00) 18.54165345430374%, rgba(55, 64, 87, 1.00) 28.634896874427795%, rgba(21, 21, 21, 1.00) 39.89582061767578%, rgba(15, 31, 62, 1.00) 72.69231081008911%, rgba(0, 0, 0, 1.00) 83.85975360870361%, rgba(0, 0, 0, 0.00) 89.60002660751343%);
+  backdrop-filter: blur(15px);
+}
+
+.homepage #sub-background-layer {
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.88);
+  width: 100%;
+  height: 210px;
+  left: 0px;
+  bottom: 0;
+  filter: blur(88px);
+}
+
+.homepage #btn-play-to-earn {
+  height: 34px;
+  width: 154px;
+  color: #000000;
+  text-align: center;
+  font: 700 12px 'Barlow';
+}
+
+.homepage #hero-background .container {
+  justify-content: left;
+}
+
+.homepage #hero-background {
+  background-image: url('../../../public/images/Home\ banner.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+
+.homepage .title {
+  height: 570px;
+  color: white;
+  text-align: left;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homepage .aaa-hero-base-strategy-game {
+  font: 700 44px/120% 'Barlow';
+}
+
+.homepage #aaa-hero-base-strategy-game-detail {
+  margin-top: 20px;
+  font: 700 18px 'Barlow';
+}
+
+.homepage .build {
+  font: 400 18px 'Barlow';
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.homepage .download {
+  display: flex;
+  justify-content: center;
+}
+
+.homepage .download .download-content {
+  background-image: url('../../../public/images/Background/earn-sapphire.png');
+  background-size: cover;
+  max-width: 1400px;
+  border-radius: 40px;
+}
+
+.homepage .download #dynamon {
+  top: -110px;
+  right: -70px;
+}
+
+.homepage .content {
+  padding: 110px 60px 70px 60px;
+  display: flex;
+}
+
+.homepage .earn-sapphire-and-other-in-game-resources {
+  font: 700 35px/44px 'Barlow';
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.homepage .download-content #content-left {
+  width: 450px;
+}
+
+.homepage .download-content #content-right {
+  flex: 1;
+  color: #c9c9c9 !important;
+  text-align: left;
+  font: 400 18px/20px 'Barlow';
+}
+
+.homepage #sponsor {
+  text-align: center;
+  font: 700 40px/44px 'Barlow';
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.homepage #up-comming {
+  text-align: center;
+  font: 400 italic 100px/44px 'Barlow';
+  margin-bottom: 200px;
+}
+
+.homepage #see-the-latest-container {
+  margin: 0 auto 100px auto;
+  max-width: 1062px;
+  border-radius: 30px;
+  background-color: rgb(9 10 12);
+  padding: 110px 70px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url('../../../public/images/Poseidon_BannerBack\ 4.png');
+  background-repeat: no-repeat;
+  background-position: 0;
+}
+
+.homepage #see-the-latest-right {
+  width: 50%;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.homepage #see-the-latest {
+  font: 700 40px/45.5px 'Barlow';
+}
+
+.homepage #to-stay-on-top {
+  color: rgba(255, 255, 255, 0.79) !important;
+  font: 400 14px/20px 'Barlow';
+  margin: 30px 0;
+}
+
+.homepage #based-battles-container {
+  padding: 55px 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.homepage #based-battles-content {
+  background-image: url('../../../public/images/Background/god-game.png');
+  background-size: cover;
+  max-width: 909px;
+  padding: 55px 70px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.homepage #based-battles-content img {
+  position: absolute;
+  right: -50px;
+  bottom: 50px;
+  width: 415px;
+}
+
+.homepage #based-battles-left {
+  width: calc(100% - 365px);
+}
+
+.homepage #based-battles {
+  text-align: left;
+  font: 700 40px/40px 'Barlow';
+  margin-bottom: 25px;
+}
+
+.homepage #rise-to-the-top {
+  color: rgba(255, 255, 255, 0.79) !important;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+}
+
+.homepage #lead-you-container {
+  margin: 100px auto;
+  display: flex;
+}
+
+.homepage #lead-you-left {
+  padding: 50px 5px 0 0;
+  width: 40%;
+}
+
+.homepage #lead-you-right {
+  flex: 1;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.homepage #lead-you-right img {
+  width: 100%;
+  height: auto;
+}
+
+.homepage #lead-you {
+  text-align: left;
+  font: 700 40px/120% 'Barlow';
+}
+
+.homepage #hero-has-heard {
+  color: rgba(255, 255, 255, 0.79) !important;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+}
+
+.homepage #launch-calendar {
+  display: flex;
+  margin: 0 auto;
+  padding: 50px 0;
+  justify-content: center;
+}
+
+.homepage #launch-container {}
+
+.homepage #launch-container #first-row {
+  display: flex;
+}
+
+.homepage #launch-container #first-row #first-row-left {
+  width: 60%;
+}
+
+.homepage #launch-container #first-row #first-row-right {
+  width: 320px;
+  margin-right: 150px;
+}
+
+.homepage #launch-container #first-row #launch {
+  text-align: left;
+  font: 700 40px/120% 'Barlow';
+}
+
+.homepage #launch-container #first-row #rise-of {
+  color: rgba(255, 255, 255, 0.79) !important;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+}
+
+.homepage #calendar-container {
+  margin-top: 80px;
+}
+
+.homepage #calendar-container #first-row,
+.homepage #calendar-container #second-row {
+  display: flex;
+  justify-content: end;
+}
+
+.homepage #calendar-container #first-row #calendar-bar {
+  background: linear-gradient(90deg, rgba(61, 48, 111, 1.00) 0%, rgba(247, 214, 42, 1.00) 51.87498927116394%, rgba(241, 130, 0, 1.00) 100%);
+  border-radius: 16px;
+  width: 864.13px;
+  min-width: 864.13px;
+  height: 18.96px;
+  position: relative;
+}
+
+.homepage #calendar-container #first-row .line {
+  position: absolute;
+  top: -10px;
+  height: 45px;
+  border: solid rgba(255, 255, 255, 0.38);
+  border-width: 0 1px 0 0;
+}
+
+.homepage #calendar-container #second-row .line {
+  position: absolute;
+  top: -10px;
+  height: 60px;
+  border: solid rgba(255, 255, 255, 0.38);
+  border-width: 0 0 0 1px;
+}
+
+.homepage #calendar-container .line#line-1 {
+  left: 17.37px;
+}
+
+.homepage #calendar-container .line#line-2 {
+  left: 152.71px;
+}
+
+.homepage #calendar-container .line#line-3 {
+  left: 295.36px;
+}
+
+.homepage #calendar-container .line#line-4 {
+  left: 429.78px;
+}
+
+.homepage #calendar-container .line#line-5 {
+  left: 574.26px;
+}
+
+.homepage #calendar-container .line#line-6 {
+  left: 714.17px;
+}
+
+.homepage #calendar-container #second-row {
+  margin-top: 80px;
+}
+
+.homepage #calendar-container #second-row #calendar {
+  border-radius: 16px;
+  width: 864.13px;
+  min-width: 864.13px;
+  height: 18.96px;
+  position: relative;
+}
+
+#calendar-container .stage-title {
+  color: #f4f4f4 !important;
+  text-align: left;
+  font: 700 13px/16px 'Barlow';
+  padding: 0 6px;
+}
+
+#calendar-container .stage {
+  padding-top: 8px;
+  color: #717171 !important;
+  text-align: left;
+  font: 700 15px/44px 'Barlow';
+  line-height: 12px;
+  padding: 6px 6px 3px 6px;
+}
+
+.homepage #video-title {
+  font: 700 40px/44px 'Barlow';
+}
+
+.homepage #video-slide .carousel-item {
+  padding: 0 100px;
+}
+
+.homepage #video-slide .carousel-control-next {
+  background: black;
+  height: 74px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  width: 85px;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.homepage #video-slide .carousel-control-prev {
+  background: black;
+  height: 74px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  width: 85px;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.homepage #video-slide .carousel-indicators {
+  bottom: -20px;
+}
+
+.homepage #video-slide .carousel-indicators li {
+  width: 26px !important;
+  height: 26px !important;
+  border: 0px !important;
+  border-radius: 13px !important;
+  margin: 8px;
+}
+
+.homepage #video-slide .video-upcomming {
+  font: 400 italic 70px/44px 'Barlow';
+  line-height: 80px;
+  position: absolute;
+  z-index: 1;
+  width: calc(100% - 6rem);
+  height: calc(100% - 6rem);
+  border-radius: 20px;
+  top: 3rem;
+  left: 3rem;
+  background-color: #17222c;
+}
+.homepage #video-slide .fake-video {
+  border-radius: 20px;
+}
+.homepage #vision-container {
+  padding: 30px 0px;
+}
+
+.homepage #vision-quote-start {
+  transform: rotate(180deg) skewX(-15deg);
+  font-size: 40px;
+  top: -15px;
+  left: 5px;
+  position: absolute;
+}
+
+.homepage #vision-quote-end {
+  font-size: 40px;
+  right: 5px;
+  bottom: -2px;
+  position: absolute;
+  transform: rotate(180deg) skewX(-15deg);
+}
+
+.homepage .quote {
+  font: 700 15px 'Barlow';
+  border-radius: 20px;
+  background-color: #17222c;
+  padding: 15px;
+}
+
+.homepage #vision-title {
+  text-align: initial;
+  padding-left: 18px;
+  margin: 20px 0;
+  font: 700 40px/44px 'Barlow';
+}
+
+.homepage #vision-content {
+  max-width: 460px;
+}
+
+.homepage #vision-container .carousel-inner {}
+
+.homepage #vision-container .carousel-item {
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+  padding-bottom: 50px !important;
+  /* height: 350px; */
+}
+
+.homepage #vision-container .carousel-item-detail {
+  padding: 20px 18px 50px;
+  border-radius: 20px;
+  background-color: #17222c;
+  height: 180px;
+}
+
+.homepage #vision-container .carousel-item div {
+  color: rgba(255, 255, 255, 0.79) !important;
+  display: flex;
+  align-items: center;
+}
+
+.homepage #vision-container .carousel-indicators {
+  bottom: 40px;
+}
+
+.homepage #vision-container .carousel-indicators li {
+  width: 14px !important;
+  height: 14px !important;
+  border: 0px !important;
+  border-radius: 7px !important;
+  margin: 4px;
+}
+
+.homepage #vision-container .carousel-control-next,
+.homepage #vision-container .carousel-control-prev {
+  background: black;
+  height: 30px;
+  border-radius: 40px;
+  width: 30px;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.homepage #vision-container .carousel-control-next-icon,
+.homepage #vision-container .carousel-control-prev-icon {
+  width: 15px;
+}
+
+.homepage #register-container {
+  margin: 170px auto 150px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.homepage #register-content {
+  position: relative;
+  background-image: url('../../../public/images/Background/pre-regiser.png');
+  background-size: cover;
+  width: 1043px;
+  height: 439px;
+  padding: 160px 70px 70px 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homepage #register-content img {
+  position: absolute;
+  right: -160px;
+  top: -355px;
+  width: 690px;
+}
+
+.homepage #register-left {
+  width: 40%;
+  position: relative;
+}
+
+.homepage #register {
+  text-align: left;
+  font: 700 40px/44px 'Barlow';
+}
+
+.homepage #sign-up {
+  color: rgba(255, 255, 255, 0.79) !important;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+  margin: 20px 0;
+}
+
+.homepage #register-container input {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-right: 0px;
+  outline: 0px;
+}
+
+.homepage #register-container input:focus {
+  box-shadow: none !important;
+  border-color: white;
+}
+
+.homepage #register-container span {
+  border-radius: 10px;
+  margin-left: -10px;
+}
+
+.homepage #basic-addon2 {
+  color: #000000 !important;
+  text-align: left;
+  font: 700 14px/20px 'Barlow'
+}
+
+.homepage #input-container {
+  width: 360px;
+}

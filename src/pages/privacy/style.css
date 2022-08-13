@@ -1,0 +1,45 @@
+#privacy,
+#privacy * {
+  color: white;
+}
+
+#privacy {
+  background: linear-gradient(90.65deg, rgba(59, 66, 96, 1.00) 2.338569425046444%, rgba(59, 55, 85, 1.00) 30.52082061767578%, rgba(60, 46, 77, 1.00) 60.20832061767578%, rgba(61, 30, 59, 1.00) 100%);
+  backdrop-filter: blur(15px);
+  overflow: auto;
+}
+#privacy #background-layer {
+  background: linear-gradient(1.64deg, rgba(26, 27, 30, 1.00) 0%, rgba(0, 0, 0, 1.00) 23.25628399848938%, rgba(1, 9, 31, 1.00) 45.10415494441986%, rgba(61, 52, 74, 1.00) 60.20832061767578%, rgba(0, 0, 0, 0.34) 74.79165196418762%);
+  backdrop-filter: blur(15px);
+}
+
+#privacy #title {
+  font: 700 60px 'Barlow';
+}
+
+#privacy .content1{
+  margin-bottom: 60px;
+}
+#privacy .content .title {
+  font: 700 32px 'Barlow';
+  padding: 30px 0;
+}
+
+#privacy .content .title1 {
+  font: 700 32px 'Barlow';
+  margin-top: 90px;
+}
+
+#privacy .content .sub-title {
+  font: 700 32px 'Barlow';
+  padding: 30px;
+}
+#privacy .content .content-sub-detail {
+  padding-left: 30px;
+  font: 400 20px 'Barlow';
+}
+
+#privacy #time {
+  font: 500 20px 'Barlow';
+}
+

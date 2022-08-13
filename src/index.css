@@ -1,0 +1,68 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Barlow',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  background-color: #ff8a00; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#fdc500, #ff8a00);
+  border: 0;
+  border-radius: 6px;
+}
+
+select {
+  background: transparent;
+}
+
+option {
+  color: black !important;
+}
+#about .hero-container{
+  height: 550px !important;
+}
+#about #zeus-hades-poseidon #element{
+  height: 600px;
+}
+div#cms{
+  
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  border-radius: 25px;
+  background-color: #17222c;
+  width: 100%;
+ 
+  box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
+  box-sizing: unset !important;
+}
+.title_1{
+  font: 700 30px/120% 'Barlow';
+}
+.homepage .aaa-hero-base-strategy-game {
+  font: 741 54px/120% 'Barlow' !important;
+}
+.bg_2{
+   background-image: url('../public/images/bg2_story.png') !important;
+}
+.bg3_story{
+  background-image: url('../public/images/bg3_story.png') !important;
+}
+
+.layout_black_blur {
+  position: absolute;
+  width: 1341px;
+  height: 210px;
+  top: 500px !important;
+  background: black;
+  filter: blur(176px);
+}

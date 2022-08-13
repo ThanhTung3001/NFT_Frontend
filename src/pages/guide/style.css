@@ -1,0 +1,126 @@
+#guide,
+#guide * {
+  color: white;
+}
+
+#guide {
+  background: linear-gradient(90.65deg, rgba(59, 66, 96, 1.00) 2.338569425046444%, rgba(59, 55, 85, 1.00) 30.52082061767578%, rgba(60, 46, 77, 1.00) 60.20832061767578%, rgba(61, 30, 59, 1.00) 100%);
+  backdrop-filter: blur(15px);
+  overflow: auto;
+}
+
+#guide #background-layer {
+  background: linear-gradient(1.64deg, rgba(26, 27, 30, 1.00) 0%, rgba(0, 0, 0, 1.00) 23.25628399848938%, rgba(1, 9, 31, 1.00) 45.10415494441986%, rgba(61, 52, 74, 1.00) 60.20832061767578%, rgba(0, 0, 0, 0.34) 74.79165196418762%);
+  backdrop-filter: blur(15px);
+}
+
+#guide #title {
+  font: 700 40px 'Barlow';
+}
+
+#guide #title-detail {
+  margin-top: 25px;
+  font: 400 15px 'Barlow';
+}
+
+#guide #vision-quote-start {
+  transform: rotate(180deg) skewX(-15deg);
+  font-size: 40px;
+  top: -30px;
+  left: 5px;
+  position: absolute;
+}
+
+
+#guide #vision-quote-end {
+  transform: rotate(180deg) skewX(-15deg);
+  font-size: 40px;
+  right: 5px;
+  bottom: -12px;
+  position: absolute;
+}
+
+#guide .quote {
+  background-color: #000000;
+  padding: 10px;
+  width: 437px;
+  height: 64px;
+  text-align: center;
+}
+
+#guide #vision-title {
+  margin: 20px;
+  font: 700 40px/44px 'Barlow';
+}
+
+#guide #search {
+  border-radius: 18px;
+  height: 55px;
+  margin-top: 50px;
+}
+
+#guide #search i{
+  font-size:  40px;
+  padding-left: 24px;
+  color: #969696;
+}
+
+#guide #search input {
+  border-radius: 18px;
+  background: #d9d9d9;
+  padding-left: 80px;
+}
+
+::placeholder {
+  color: #000000;
+  opacity: 1;
+  font: 100 20px 'Barlow';
+}
+
+#guide #search input:focus{
+  border: 0!important;
+  box-shadow: none;
+  outline: none;
+
+}
+
+#guide .village-title{
+  margin: 60px 0 10px 0px;
+  font: 700 30px 'Barlow';
+  text-align: left;
+}
+
+
+#guide #village-content{
+  width: 982px;
+  margin-bottom: 100px!important;
+}
+
+#guide .building-detail{
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  cursor: pointer;
+}
+
+#guide .building-detail img{
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+#guide .building-detail #name{
+  font: 400 15px 'Barlow';
+}
+
+#guide #andMore{
+  display: inline;
+  text-align: center;
+  font: 400 italic 35px 'Barlow';
+}
+#guide  .coming-soon {
+  display: inline;
+  text-align: center;
+  font: 400 italic 70px 'Barlow';
+}

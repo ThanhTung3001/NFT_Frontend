@@ -1,0 +1,44 @@
+#loading-screen {
+  background: linear-gradient(90.65deg, rgba(59, 66, 96, 1.00) 2.338569425046444%, rgba(59, 55, 85, 1.00) 30.52082061767578%, rgba(60, 46, 77, 1.00) 60.20832061767578%, rgba(61, 30, 59, 1.00) 100%);
+  backdrop-filter: blur(15px);
+  overflow: auto;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+#loading-screen #aaa {
+  letter-spacing: 2px;
+}
+#loading-screen #background-layer {
+  /* background: linear-gradient(1.64deg, rgba(26, 27, 30, 1.00) 0%, rgba(0, 0, 0, 1.00) 23.25628399848938%, rgba(1, 9, 31, 1.00) 45.10415494441986%, rgba(61, 52, 74, 1.00) 60.20832061767578%, rgba(0, 0, 0, 0.34) 74.79165196418762%); */
+  backdrop-filter: blur(15px);
+}
+
+#loading-screen #loading-bar-container {
+  width: 373px;
+  height: 9.85px;
+}
+
+#loading-screen #loading-bar-bg {
+  background: linear-gradient(180deg, rgba(251, 254, 255, 0.37) 0%, rgba(255, 255, 255, 0.00) 100%);
+  border-radius: 9px;
+  width: 373px;
+  height: 9.85px;
+  left: 0px;
+  top: 0px;
+}
+
+#loading-screen #loading-bar {
+  top: 0;
+  left: 0;
+  height: 9.85px;
+  background: linear-gradient(180deg, rgba(126, 126, 126, 1.00) 0%, rgba(126, 126, 126, 0.54) 100%);
+  border-radius: 9px;
+  width: 100%;
+}
+
+@keyframes loading-bar {
+  from {width: 0%;}
+  to {width: 100%;}
+}

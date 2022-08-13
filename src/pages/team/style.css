@@ -1,0 +1,353 @@
+#team,
+#team * {
+  color: white;
+}
+
+#team {
+  background: linear-gradient(90.65deg, rgba(59, 66, 96, 1.00) 2.338569425046444%, rgba(59, 55, 85, 1.00) 30.52082061767578%, rgba(60, 46, 77, 1.00) 60.20832061767578%, rgba(61, 30, 59, 1.00) 100%);
+  backdrop-filter: blur(15px);
+  overflow: auto;
+}
+
+#team #background-layer {
+  background: linear-gradient(1.64deg, rgba(26, 27, 30, 1.00) 0%, rgba(0, 0, 0, 1.00) 23.25628399848938%, rgba(1, 9, 31, 1.00) 45.10415494441986%, rgba(61, 52, 74, 1.00) 60.20832061767578%, rgba(0, 0, 0, 0.34) 74.79165196418762%);
+  backdrop-filter: blur(15px);
+}
+
+#team #banner {
+  height: 478px;
+  margin: 100px 0;
+  background-image: url('../../../public/images/team_banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#team #banner-content {
+  background: #000000bf;
+}
+
+#team #banner-header {
+  font: 700 70px/48px 'Barlow';
+}
+
+#team #banner-text {
+  font: 300 40px/48px 'Barlow';
+}
+
+#team .title {
+  margin-top: 80px;
+  color: #ffffff;
+  text-align: center;
+  font: 700 40px 'Barlow';
+}
+
+#team .content-ourteam {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#team .carousel-control-next {
+  background: white;
+  height: 74px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  width: 85px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#team  .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+#team .text-transparent *{
+  color: transparent!important;
+}
+
+#team  .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+#team .last-comming-soon {
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+#team .carousel-control-prev {
+  background: white;
+  height: 74px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  width: 85px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#team .content-ourteam-detail {
+  padding-top: 25px;
+  width: 25%;
+}
+
+#team #name {
+  text-align: center;
+  font: 700 15px/44px 'Barlow';
+}
+
+#team #job-title {
+  text-align: center;
+  font: 700 10px/44px 'Barlow';
+  margin-top: -25px;
+}
+
+#team #carousel-advisor .carousel-inner {
+  padding: 50px 0 70px 0;
+  border-radius: 25px;
+  background: black;
+  width: 880px;
+}
+
+#team #carousel-advisor .carousel-indicators li {
+  width: 16px !important;
+  height: 16px !important;
+  border: 0px !important;
+  border-radius: 13px !important;
+  margin: 8px;
+}
+
+#team #carousel-advisor .carousel-item {
+  font: 600 italic 100px 'Barlow';
+}
+
+#team .content-ourAdvisors .content-ourAdvisors-element {
+  max-width: 380px;
+  padding: 50px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+}
+
+#team .content-ourAdvisors .content-ourAdvisors-element #image-ourAdvisors {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#team .content-ourAdvisors .content-ourAdvisors-detail {
+  background-color: #171d27;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#team .content-ourAdvisors .content-ourAdvisors-detail .text {
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+#team .content-ourAdvisors .content-ourAdvisors-detail .name {
+  font: 800 25px 'Barlow';
+}
+
+#team .content-ourAdvisors .content-ourAdvisors-detail .job-title {
+  color: #e4a400;
+  font: 100 12px 'Barlow';
+}
+
+#team .content-ourAdvisors .content-ourAdvisors-detail .description {
+  color: #ffffff;
+  font: 400 15px 'Barlow';
+}
+
+#team .content-ourAdvisors .content-ourAdvisors-detail .icon-content {
+  margin-top: 50px;
+}
+
+#team #andMore {
+  display: inline;
+  text-align: center;
+  font: 400 italic 35px 'Barlow';
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+#team .content-ourAdvisors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#team .icon-content {
+  padding: 15px 30px;
+  display: flex;
+  justify-content: left;
+}
+
+#team .icon-content img {
+  width: 18px;
+  padding: 4px;
+}
+
+#team #concept-art-by {
+  color: #ffffff;
+  text-align: center;
+  font: 700 40px 'Barlow';
+  margin-top: 100px;
+}
+
+#team #content-concept-art-by {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px 0px;
+  justify-content: center;
+  margin: 50px 0px 150px;
+
+}
+
+#team #content-concept-art-by #concept-art-by-image {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#team #content-concept-art-by #concept-art-by-image img {
+  width: 100%;
+  max-width: 350px;
+}
+
+#team #content-concept-art-by #concept-art-by-text {
+  flex: 1;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#team #content-concept-art-by #culu-art-station {
+  color: #ffffff;
+  text-align: center;
+  font: 800 25px 'Barlow';
+  margin-top: 15px;
+}
+
+#team #blank-place {
+  height: 800px;
+}
+
+#team #some-of-the-products {
+  background: #000000;
+  border-radius: 20px;
+  border: solid #ffffff;
+  border-width: 1px;
+  width: 274px;
+  height: 44px;
+  box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#team #graphic-engineer-container {
+  justify-content: center;
+  padding: 100px 0;
+}
+
+#team #graphic-engineer-title {
+  margin: auto;
+  font: 700 40px/48px 'Barlow';
+}
+
+#team #graphic-engineer-img {
+  opacity: 0.3;
+  background-image: url('../../../public/images/graphic_engineer.png');
+  width: 677px;
+  height: 420px;
+  background-position: 50%;
+}
+
+#team #cg3d {
+  color: rgba(255, 255, 255, 0.87) !important;
+  text-align: left;
+  font: 700 36px/44px 'Barlow';
+}
+
+#team .first .cg3d-text {
+  color: rgba(255, 255, 255, 0.87) !important;
+
+}
+#team .cg3d-text {
+  text-align: left;
+  font: 400 15px/20px 'Barlow';
+}
+
+#team #cg3d-container .carousel-indicators li {
+  width: 18px !important;
+  height: 18px !important;
+  border: 0px !important;
+  border-radius: 13px !important;
+  margin: 8px;
+}
+
+#team #cg3d-container #carousel-cg3d .carousel-item {
+  padding: 0 100px;
+}
+
+#team #cg3d-container .carousel-control-next {
+  background: white;
+  height: 74px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  width: 85px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#team #cg3d-container .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+#team #cg3d-container .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+#team #cg3d-container .carousel-control-prev {
+  background: white;
+  height: 74px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  width: 85px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#team #cg3d-container .carousel-indicators {
+  bottom: -15px;
+}
+
+#team #content-left {
+  width: 50%;
+}
+
+#team #content-right {
+  flex: 1;
+}
+#team #graphic-engineer-title{
+  margin-right: 30px !important;
+}
+#team #graphic-engineer-img{
+  width: 600px !important;
+}

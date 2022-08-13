@@ -1,0 +1,11 @@
+.socials {
+  text-align: left;
+}
+.socials img {
+  margin-right: 20px;
+}
+
+.socials .socials-title {
+  margin-bottom: 10px;
+  font: 500 14px 'Barlow';
+}

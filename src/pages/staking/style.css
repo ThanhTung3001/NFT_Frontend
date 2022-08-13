@@ -1,0 +1,188 @@
+#staking,
+#staking * {
+  color: white;
+}
+
+#staking {
+  background: linear-gradient(90.65deg, rgba(59, 66, 96, 1.00) 2.338569425046444%, rgba(59, 55, 85, 1.00) 30.52082061767578%, rgba(60, 46, 77, 1.00) 60.20832061767578%, rgba(61, 30, 59, 1.00) 100%);
+  backdrop-filter: blur(15px);
+  overflow: auto;
+}
+#staking #background-layer {
+  /* background: linear-gradient(1.64deg, rgba(26, 27, 30, 1.00) 0%, rgba(0, 0, 0, 1.00) 23.25628399848938%, rgba(1, 9, 31, 1.00) 45.10415494441986%, rgba(61, 52, 74, 1.00) 60.20832061767578%, rgba(0, 0, 0, 0.34) 74.79165196418762%); */
+  backdrop-filter: blur(15px);
+}
+
+#staking #land-nfts-container {
+  display: flex;
+  justify-content: center;
+  margin: 200px 0 50px 0;
+}
+
+#staking #land-nfts-content {
+  padding: 70px 70px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-image: url('../../../public/images/Background/own-your-olumpus.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1137px;
+  height: 483px;
+}
+
+#staking #land-nfts-content img {
+  position: absolute;
+  right: 65px;
+  top: -40%;
+}
+
+#staking #land-nfts-left {
+  width: 60%;
+  text-align: center;
+}
+
+#staking #land-nfts {
+  font: 700 40px 'Barlow';
+  margin-bottom: 30px;
+  width: 423px;
+  text-align: center;
+}
+
+#staking #land-nfts-text {
+  color: rgba(255, 255, 255, 0.79) !important;
+  text-align: center;
+  font: 400 20px/32.5px 'Barlow';
+  width: 413px;
+}
+
+#staking #land-nfts-lef #land-nfts {
+  font: 700 40px 'Barlow';
+}
+
+#staking #land-nfts-left #land-nfts-button {
+  background-color: #000000 !important;
+  background-image: none;
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 189px;
+  height: 54px;
+  font: 700 15px/32.5px 'Barlow';
+  margin-left: -350px;
+}
+
+#staking .content {
+  display: flex;
+  justify-content: center;
+}
+
+#staking #content1 {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(23, 34, 44);
+  width: 1140px;
+  height: 154px;
+  justify-content: space-between;
+}
+
+#staking #content1 #content1-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 200px;
+}
+
+#staking #content1 #content1-text #text1 {
+  font: 700 25px 'Barlow';
+}
+
+#staking #content1 #content1-text #text2 {
+  font: 400 20px/32.5px 'Barlow';
+  color: rgba(222, 222, 222, 0.79);
+}
+
+#staking #content1 #content1-btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#staking #content1 #content1-button {
+  background-color: #000000 !important;
+  background-image: none;
+  border-radius: 10px;
+  width: 142px;
+  height: 45px;
+  font: 700 15px/32.5px 'Barlow';
+  margin-right: 50px;
+}
+
+#staking .last-content {
+  padding: 0 0px;
+}
+#staking .container-img {
+  border-radius: 30px;
+  height: 400px;
+  width: 350px;
+  background-size: cover;
+  padding-top: 20px;
+  margin-right: -5px;
+}
+#staking .container-img img {
+  max-width: 100%;
+}
+#staking .last-content #last-content-1 {
+  background-image: url("../../../public/images/Rectangle\ 63.png");
+}
+#staking .last-content #last-content-2 {
+  background-image: url("../../../public/images/Rectangle\ 65.png");
+}
+#staking .last-content #last-content-3 {
+  background-image: url("../../../public/images/Rectangle\ 67.png");
+}
+#staking .last-content img {
+}
+
+#staking #content2 #content2-image {
+  position: relative;
+
+}
+#staking .img-explain {
+  flex: 1;
+}
+#staking .last-content .last-content-image-text {
+  position: absolute;
+  bottom: 42px;
+  left: 0;
+  font: 700 40px/32.5px 'Barlow';
+  width: 100%;
+}
+
+#staking .img-explain {
+  box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
+  background: #2a1930;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 183px;
+}
+
+#staking .content2-text-detail {
+  text-align: left;
+  font: 400 25px/32.5px 'Barlow';
+}
+
+
+#staking .content2-button {
+  background-color: #000000 !important;
+  background-image: none;
+  border-radius: 10px;
+  width: 261px;
+  height: 84px;
+  font: 700 30px/32.5px 'Barlow';
+  box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
+  cursor: pointer;
+  bottom: -42px;
+  right: 55px;
+}

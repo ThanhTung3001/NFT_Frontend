@@ -1,0 +1,42 @@
+#term,
+#term * {
+  color: white;
+}
+
+#term {
+  background: linear-gradient(90.65deg, rgba(59, 66, 96, 1.00) 2.338569425046444%, rgba(59, 55, 85, 1.00) 30.52082061767578%, rgba(60, 46, 77, 1.00) 60.20832061767578%, rgba(61, 30, 59, 1.00) 100%);
+  backdrop-filter: blur(15px);
+  overflow: auto;
+}
+#term #background-layer {
+  background: linear-gradient(1.64deg, rgba(26, 27, 30, 1.00) 0%, rgba(0, 0, 0, 1.00) 23.25628399848938%, rgba(1, 9, 31, 1.00) 45.10415494441986%, rgba(61, 52, 74, 1.00) 60.20832061767578%, rgba(0, 0, 0, 0.34) 74.79165196418762%);
+  backdrop-filter: blur(15px);
+}
+#term #title {
+  font: 700 60px 'Barlow';
+  margin: 20px 0 0 0;
+}
+
+#term #content {
+  font: 500 20px 'Barlow';
+}
+#term #time {
+  font: 500 20px 'Barlow';
+}
+
+#term .list-title {
+  font: 700 32px 'Barlow';
+  margin: 40px 0px 10px 0px;
+}
+#term .list-sub-title {
+  font: 700 25px 'Barlow';
+  margin: 12px 0;
+}
+#term .list-content {
+  font: 500 20px 'Barlow';
+}
+#term .list-sub-title-small {
+  font: 500 20px 'Barlow';
+  margin: 10px 0;
+}
+

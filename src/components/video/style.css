@@ -1,0 +1,20 @@
+.video-container .play-btn {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.video-container .play-btn i {
+  font-size: 80px;
+}
+.video-container {
+  cursor: pointer;
+}
+.video-container .play-btn:hover {
+  cursor: pointer;
+}
+.video-container .display-none {
+  display: none;
+}
+.video-container:hover .play-btn {
+  display: unset;
+}

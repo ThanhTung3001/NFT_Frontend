@@ -1,0 +1,39 @@
+#building,
+#building * {
+  color: white;
+}
+
+#building {
+  background: linear-gradient(90.65deg, rgba(59, 66, 96, 1.00) 2.338569425046444%, rgba(59, 55, 85, 1.00) 30.52082061767578%, rgba(60, 46, 77, 1.00) 60.20832061767578%, rgba(61, 30, 59, 1.00) 100%);
+  backdrop-filter: blur(15px);
+  overflow: auto;
+}
+#building #background-layer {
+  background: linear-gradient(1.64deg, rgba(26, 27, 30, 1.00) 0%, rgba(0, 0, 0, 1.00) 23.25628399848938%, rgba(1, 9, 31, 1.00) 45.10415494441986%, rgba(61, 52, 74, 1.00) 60.20832061767578%, rgba(0, 0, 0, 0.34) 74.79165196418762%);
+  backdrop-filter: blur(15px);
+}
+#building #title-content {
+  margin-top: 50px;
+  text-align: center;
+  font: 700 40px 'Barlow';
+  height: 100%;
+}
+
+#building #image-content {
+  padding: 0px 100px;
+}
+#building #building-level-container {
+  padding: 100px;
+}
+
+#building #image-content #image {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+}
+
+#building #blank {
+  height: 700px;
+  width: 100%;
+}

@@ -1,0 +1,52 @@
+.modal-content {
+  min-width: 900px;
+}
+.modal-dialog {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+.modal-content .carousel-item .inner-ct {
+  width: 868px;
+  height: 280px;
+  display: flex;
+}
+.modal-content .slide-images-list {
+  width: fit-content;
+}
+.modal-content .level-build {
+  /* width: calc(100% / 5); */
+}
+.modal-content .level-build img {
+  max-width: 100%;
+  padding: 15px;
+}
+.modal-content {
+  color: white;
+  background: linear-gradient(90.63deg, rgba(31, 58, 89, 1.00) 0%, rgba(133, 100, 131, 1.00) 47.70832061767578%, rgba(112, 0, 106, 1.00) 100%);
+
+}
+.modal-content .carousel-inner {
+  padding-bottom: 40px;
+} 
+.modal-content .carousel-indicators li {
+  width: 16px !important;
+  height: 16px !important;
+  border: 0px !important;
+  border-radius: 13px !important;
+  margin: 8px;
+}
+.modal-content .img-title {
+  font: 400 15px 'Barlow';
+  text-align: center;
+}
+.modal-content .img-description{
+  font: 400 15px 'Barlow';
+  padding: 30px 0px;
+  text-align: center;
+  max-width: 520px;
+  margin: auto;
+
+}

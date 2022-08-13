@@ -1,0 +1,597 @@
+#about,
+#about * {
+  color: white;
+}
+
+#about {
+  background: linear-gradient(90.65deg, rgba(59, 66, 96, 1.00) 2.338569425046444%, rgba(59, 55, 85, 1.00) 30.52082061767578%, rgba(60, 46, 77, 1.00) 60.20832061767578%, rgba(61, 30, 59, 1.00) 100%);
+  backdrop-filter: blur(15px);
+  overflow: auto;
+}
+
+#about .background-layer {
+  background: linear-gradient(1.64deg, rgba(26, 27, 30, 1.00) 0%, rgba(32, 21, 22, 1.00) 16.481849551200867%, rgba(79, 52, 92, 1.00) 28.634896874427795%, rgba(28, 38, 65, 1.00) 45.10415494441986%, rgba(33, 28, 41, 1.00) 60.20832061767578%, rgba(0, 0, 0, 0.34) 74.79165196418762%);
+  width: 100%;
+  backdrop-filter: blur(15px);
+}
+
+#about #banner-slide .sub-bg {
+  background: radial-gradient(closest-side, rgba(0, 0, 0, 1.00) 0%, rgba(1, 1, 1, 0.05) 100%);
+  border-radius: 50%;
+  width: 35%;
+  height: 60%;
+  position: absolute;
+  right: 25%;
+  top: 20%;
+  z-index: -1;
+}
+#about #banner-slide .sub-bg-1 {
+  background: radial-gradient(57.36% 57.36% at 50% 50%, rgba(252, 0, 0, 0.95) 0%, rgba(255, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+mix-blend-mode: normal;
+filter: blur(20px);
+  border-radius: 50%;
+  width: 35%;
+  height: 70%;
+  position: absolute;
+  left: 23%;
+  top: 20%;
+  z-index: -1;
+}
+
+#about #banner-slide {
+  width: 100%;
+}
+
+#about #slide-background1{
+  background-image: url('../../../public/images/Zeus.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#about #banner-slide .carousel-inner {
+  padding: 0 0px;
+}
+#about #banner-slide .carousel-inner .bg {
+  
+  z-index: -1;
+}
+#about #banner-slide .carousel-control-next {
+  background: black;
+  height: 74px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  width: 85px;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#about #banner-slide .carousel-control-prev {
+  background: black;
+  height: 74px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  width: 85px;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#about .text-container {
+  width: 403px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about #carouselAboutBanner .carousel-inner {
+}
+#about #banner-slide .carousel-item>div.banner-text-container .container {
+  justify-content: unset !important;
+}
+#about #banner-slide .carousel-item>div.banner-text-container {
+  top: 0;
+  left: 0;
+}
+.text-container-left {
+  flex: 1
+}
+
+#about .aaa-hero-base-strategy-game {
+  color: rgba(255, 255, 255, 0.87) !important;
+  font: 700 36px/44px 'Barlow';
+}
+
+#about .rise-of * {
+  color: rgba(255, 255, 255, 0.79) !important;
+  font: 500 14px/20px 'Barlow';
+}
+
+#about .rise-of .title-detail {
+  font: 700 20px 'Barlow';
+}
+
+#about .carousel-indicators li {
+  width: 26px !important;
+  height: 26px !important;
+  border: 0px !important;
+  border-radius: 13px !important;
+  margin: 8px;
+}
+
+#about #believe-container {
+  margin-bottom: 200px;
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+
+#about #believe {
+  position: relative;
+  border-radius: 30px;
+  background-image: url('../../../public/images/Background/Rectangle\ tím.png');
+  background-size: cover;
+}
+
+#about #believe #content {
+  padding: 60px 30px 0 30px;
+}
+
+#about #what-we-believe {
+  font: 700 35px/44px 'Barlow';
+}
+
+#about #believe-items {
+  transform: translateY(90px);
+}
+
+#about .believe-item {
+  padding: 80px 0 30px 0;
+  border-radius: 25px;
+  background-color: #17222c;
+  height: 100%;
+  box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
+  max-width: 233px;
+}
+
+#about .believe-item img {
+  position: absolute;
+  top: -53%;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+}
+
+#about .believe-item .img-title {
+  font: 700 20px/20px 'Barlow';
+}
+
+#about .believe-item .img-des {
+  color: rgba(255, 255, 255, 0.79) !important;
+  font: 400 16px/20px 'Barlow';
+  width: 230px;
+  margin-left: -13px;
+}
+
+#about #why-you-might-love-it-container {
+  padding: 0px;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+#about #why-you-might-love-it-container img {
+  width: 55%;
+  margin-right: 50px;
+}
+
+#about #why-you-might-love-it-container #why-you-might-love-it-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about #why-you-might-love-it-container #why-you-might-love-it {
+  font: 700 36px/44px 'Barlow';
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+#about #why-you-might-love-it-container #des-1,
+#about #why-you-might-love-it-container #des-2 {
+  color: rgba(240, 240, 240, 0.79) !important;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+  margin-bottom: 15px;
+}
+
+#about #why-you-might-love-it-container #read-more {
+  color: #e7ac00 !important;
+  cursor: pointer;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+  display: flex;
+  align-items: center;
+}
+
+#about #why-you-might-love-it-container #read-more i {
+  color: #e7ac00 !important;
+  cursor: pointer;
+  text-align: left;
+  font: 400 14px/20px;
+}
+
+/*  */
+#about #market-place-container {
+  padding: 0px;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+#about #market-expand-icon {
+  color: rgba(240, 240, 240, 0.79) !important;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+#about #market-place-container #market-place-content {
+  width: 418px;
+  padding-right: 10px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#about #market-place-container #market-img {
+  flex: 1;
+}
+
+
+#about #market-place-container #market-place {
+  font: 700 36px/44px 'Barlow';
+  text-align: left;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+#about #market-place-container #des-1,
+#about #market-place-container #des-2 {
+  color: rgba(240, 240, 240, 0.79) !important;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+  margin-bottom: 15px;
+}
+
+#about #market-place-container #read-more {
+  color: #e7ac00 !important;
+  cursor: pointer;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+  display: flex;
+  align-items: center;
+}
+
+#about a:hover {
+  text-decoration: none;
+}
+
+#about #market-place-container #read-more i {
+  color: #e7ac00 !important;
+  cursor: pointer;
+  text-align: left;
+  font: 400 14px/20px;
+}
+
+/* 
+ */
+
+#about #level-building-container {
+  margin: 170px auto 150px auto;
+  display: flex;
+  justify-content: center;
+}
+
+#about #level-building-container #level-building-content {
+  padding: 50px 0px;
+  width: 1208px;
+  background-image: url('../../../public/images/Background/level-building.png');
+  background-size: cover;
+  height: 479px;
+}
+
+#about #level-building-container #level-building {
+  font: 700 36px/44px 'Barlow';
+  text-align: cener;
+  margin-bottom: 15px;
+}
+
+#about #level-building-container #des-1 {
+  color: rgba(240, 240, 240, 0.79) !important;
+  text-align: center;
+  font: 400 14px/20px 'Barlow';
+}
+
+#about #level-building-container #read-more {
+  color: #e7ac00 !important;
+  cursor: pointer;
+  text-align: left;
+  font: 400 14px/20px 'Barlow';
+  display: flex;
+  justify-content: center;
+}
+
+#about #level-building-container #read-more i {
+  color: #e7ac00 !important;
+  cursor: pointer;
+  text-align: left;
+  font: 400 14px/20px;
+}
+
+#about #building-level-container {
+  padding: 30px 50px;
+  margin-bottom: 10px;
+}
+
+#about #the-gods-of-olympus #the-gods-of-olympus-title {
+  font: 700 36px/44px 'Barlow';
+}
+
+#about #the-gods-of-olympus #the-gods-of-olympus-content {
+  padding: 15px 0 30px 0;
+  font: 400 14px/20px 'Barlow';
+  width: 445px;
+  margin: auto;
+}
+
+#about #the-gods-of-olympus #the-gods-of-olympus-button {
+  background-color: #000000 !important;
+  padding: 18px 34px 18px 34px;
+  background-image: none;
+  margin-top: 20px;
+  border-radius: 0;
+  font: 500 14px 'Barlow';
+}
+
+#about #zeus-hades-poseidon {
+  margin-top: 100px;
+}
+
+#about #zeus-hades-poseidon .owl-stage {
+  padding-top: 100px;
+}
+
+#about #zeus-hades-poseidon #element {
+  position: relative;
+  /* width: calc((100% - 60px)/3); */
+  width: 335px;
+  margin: 0px 15px 100px;
+  padding-top: 70px;
+  box-sizing: unset !important;
+}
+
+#about #zeus-hades-poseidon #element img {
+  position: absolute;
+  width: 300px;
+  top: -20%;
+  left: 5%;
+}
+
+#about #zeus-hades-poseidon .title {
+  margin-top: 130px;
+  text-align: center;
+  font: 700 30px/120% 'Barlow';
+}
+
+#about #zeus-hades-poseidon .content {
+  color: #c9c9c9;
+  padding: 10px 30px 0px 30px;
+  font: 400 18px/20px 'Barlow';
+}
+
+#about #zeus-hades-poseidon .button {
+  margin-top: 60px;
+  background: #000000;
+  border-radius: 4px !important;
+  font: 500 15px 'Barlow';
+  border-radius: 0;
+  padding: 12px 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#about #faq {
+  background: linear-gradient(180deg, rgba(5, 5, 5, 1.00) 0%, rgba(23, 34, 44, 1.00) 100%) !important;
+  width: 725px;
+  height: auto;
+  border-radius: 20px;
+}
+
+#about #faq-title {
+  font: 700 36px/44px 'Barlow';
+  margin-bottom: 50px;
+}
+
+#about #faq .detail {
+  justify-content: space-between;
+  margin-top: 20px;
+
+}
+#about #zeus-hades-poseidon .owl-dots {
+  display: none;
+}
+
+#about #faq .detail .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 800 20px 'Barlow';
+}
+
+#about #faq .detail .plus {
+  font-size: 26px;
+}
+
+
+#about #faq .card-text {
+  color: white;
+  text-align: left;
+  margin-left: -5px;
+}
+
+#about #faq .box-content .card {
+  background: none;
+}
+
+#about #news {
+  margin-bottom: 200px;
+}
+
+#about #news #news-title {
+  font: 700 40px/44px 'Barlow';
+  margin-top: 80px;
+}
+
+#about #news .news-content {
+  display: flex;
+  margin-top: 80px;
+}
+
+#about #news .news-content .news-content-slide {
+  width: 60%;
+}
+
+#about #news .news-content .news-content-text {
+  flex: 1;
+  text-align: start;
+}
+
+#about #news .news-content .news-content-text #text1 {
+  margin-top: 15px;
+  font: 400 italic 60px/44px 'Barlow';
+  width: 467px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+#about #news .news-content .news-content-text #text2 {
+  font: 400 18px/28.5px 'Barlow';
+  width: 456px;
+}
+
+
+
+#about #news .news-content .news-content-text #btn-rois {
+  background: linear-gradient(180deg, rgba(231, 172, 0, 1.00) 0%, rgba(255, 153, 0, 1.00) 100%);
+  border-radius: 7px;
+  height: 47px;
+  text-align: center;
+  padding: 0 10px;
+  font: 700 22px/44px 'Barlow';
+}
+
+
+#about #news #read-more {
+  color: #e7ac00 !important;
+  cursor: pointer;
+  text-align: left;
+  font: 400 18px/44px 'Barlow';
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#about #news .carousel-control-next {
+  background: black;
+  height: 50px;
+  border-radius: 25px;
+  width: 50px;
+  color: white;
+  left: 286px;
+  top: -57px;
+  margin-top: 65px;
+}
+
+#about #news .carousel-control-prev {
+  margin-top: 65px;
+  background: black;
+  height: 50px;
+  border-radius: 25px;
+  width: 50px;
+  color: white;
+  left: 186px;
+  top: -57px;
+}
+
+#about .hero-container *,
+#about .hero-container *::before,
+#about .hero-container *::after {
+  /* box-sizing: border-box; */
+}
+
+
+/* container and cards */
+#about .hero-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  cursor: grab;
+  /* border-top: 10px solid #f00; */
+}
+
+#about .hero-container .slides {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  pointer-events: none;
+  /* border-bottom: 10px solid #00f; */
+}
+
+#about .hero-container .slide {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+#about .hero-container .ele {
+  position: absolute;
+  border-radius: 25px;
+  background-color: #17222c;
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
+  box-sizing: unset !important;
+}
+#cms {
+  height: 370px !important;
+  padding-top: 0px !important;
+}
+#navigation{
+  margin-top: 50px !important;
+}
+#about #zeus-hades-poseidon #element img {
+  position: absolute;
+  top: -3%;
+  width: 280px !important;
+  left: 8% !important;
+}
+span.visually-hidden{
+  display: none !important;
+}
+span.carousel-control-prev-icon,
+span.carousel-control-next-icon{
+  display: none ;
+}
+#about #zeus-hades-poseidon .button{
+  margin-top: 40px !important;
+}
+#about .hero-container .ele{
+  padding-top: 100px !important;
+}
