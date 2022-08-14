@@ -59,11 +59,16 @@ div#cms{
    background-repeat: no-repeat;
 }
 .bg1_story{
-  background-image: url('../public/images/graphic_engineer.png') !important;
+  /* background-image: url('../public/images/graphic_engineer.png') !important; */
   background-size: 511px 420px !important;
   background-repeat: no-repeat !important;
   width: 511px !important;
   height: 420px !important;
+}
+.bg1_story img{
+  margin-left: 30px;
+  width: 100%;
+  height: 350px;
 }
 .bg3_story{
   background-image: url('../public/images/bg3_story.png') !important;
@@ -71,6 +76,10 @@ div#cms{
   height: 420px !important;
   background-size: 511px 420px !important;
   background-repeat: no-repeat;
+}
+#team .carousel-control-prev,
+#team .carousel-control-next{
+  top: 500px !important;
 }
 
 .layout_black_blur {
@@ -80,4 +89,9 @@ div#cms{
   top: 500px !important;
   background: black;
   filter: blur(176px);
+}
+#team #graphic-engineer-title{
+  margin: 0px 100px 0px 0px !important;
+  width: 30% !important;
+  
 }

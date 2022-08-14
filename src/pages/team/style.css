@@ -273,7 +273,7 @@ a:hover {
 
 #team #graphic-engineer-img {
   opacity: 0.3;
-  background-image: url('../../../public/images/graphic_engineer.png');
+  /* background-image: url('../../../public/images/graphic_engineer.png'); */
   width: 677px;
   height: 420px;
   background-position: 50%;
@@ -349,7 +349,7 @@ a:hover {
   margin-right: 30px !important;
 }
 #team #graphic-engineer-img{
-  width: 600px !important;
+  width: 70% !important;
 }
 #bg1_story{
   width: 600px !important;

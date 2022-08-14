@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
@@ -6,6 +6,7 @@ import './style.css';
 
 export default function Team() {
   const { t } = useTranslation();
+  const [index,setIndex] =useState(0);
   return (
     <div id="team">
       <div id="background-layer">
@@ -212,7 +213,9 @@ export default function Team() {
                 <div id="graphic-engineer-title" class="text-left d-flex align-items-center">
                 CG3D  STORY
                 </div>
-                <div id="graphic-engineer-img" className="bg1_story"></div>
+                <div id="graphic-engineer-img" className="bg1_story">
+                  <img src="images/graphic_engineer.png"/>
+                </div>
                 </div>
                   <div class="d-flex">
                     
@@ -281,7 +284,9 @@ export default function Team() {
                 <div id="graphic-engineer-title" class="text-left d-flex align-items-center">
                 A GRAPHICS ENGINEER'S STORY
                 </div>
-                <div id="graphic-engineer-img" className="bg_2"></div>
+                <div id="graphic-engineer-img" className="bg1_story">
+                  <img src="images/bg2_story.png"/>
+                </div>
                 </div>
                   <div class="d-flex">
                     
@@ -321,7 +326,9 @@ export default function Team() {
                 <div id="graphic-engineer-title" class="text-left d-flex align-items-center">
                 FREEDOM AND RESPONSIBILITY
                 </div>
-                <div id="graphic-engineer-img" className="bg3_story"></div>
+                <div id="graphic-engineer-img" className="bg1_story">
+                  <img src="images/bg3_story.png"/>
+                </div>
                 </div>
                   <div class="d-flex">
                     
@@ -350,14 +357,20 @@ export default function Team() {
                   </div>
                 </div>
  
-                <a class="carousel-control-prev" href="#carousel-cg3d" role="button" data-slide="prev">
+                <a class="carousel-control-prev" style={{display:index>0?'flex':'none'}} onClick={()=>{
+                    setIndex(prev=>prev-1);
+                    //console.log(index)
+                  }}  href="#carousel-cg3d" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" style={{
-                    display:"block "
+                    display:"flex"
                   }}  aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carousel-cg3d" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" style={{
+                <a class="carousel-control-next" style={{display:index>=2?'none':'flex'}} href="#carousel-cg3d" onClick={()=>{
+                    setIndex(prev=>prev+1);
+                   // console.log(index)
+                  }} role="button" data-slide="next">
+                  <span class="carousel-control-next-icon"  style={{
                     display:"block "
                   }} aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
